@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dbs-weine:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>dbs-weine</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="dbs-weine-1.2.war">
+      <element id="artifact" artifact-name="dbs-weine:war exploded" />
+    </root>
+  </artifact>
+</component>
